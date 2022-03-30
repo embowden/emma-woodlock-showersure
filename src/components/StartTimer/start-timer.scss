@@ -1,0 +1,128 @@
+.body {
+  background-color: #e5e5e5;
+  height: 812px;
+}
+
+.shower-timer__wrapper {
+  background-color: #e5e5e5;
+  color: #2e3844;
+  font-weight: 200;
+}
+
+.timers {
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 342px;
+  height: 412px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #e5e5e5;
+  position: relative;
+  top: 100px;
+}
+
+.timers__clock,
+.timers__money,
+.timers__water {
+  width: 342px;
+  height: 116px;
+  margin: 1rem;
+  background-color: white;
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border-radius: 10px;
+}
+
+.times__watch,
+.times__pound,
+.times__litres {
+  padding-left: 20px;
+}
+
+.timer__icon,
+.pound__icon,
+.drop__icon {
+  width: 64px;
+  height: 64px;
+}
+
+.timer__buttons {
+  width: 375px;
+  background-color: white;
+  height: 150px;
+  position: relative;
+  bottom: -185px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#display span {
+  font-size: 36px;
+}
+#buttons button:nth-child(2) {
+  margin-left: 8px;
+}
+
+button {
+  font-size: 16px;
+  background-color: rgb(217, 60, 35);
+  color: #fff;
+  border-radius: 8px;
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(173, 47, 28);
+}
+button:active {
+  background-color: rgb(130, 35, 21);
+}
+button:focus {
+  outline: 0;
+}
+
+.button-bottom {
+  &__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 2rem;
+  }
+  &__play {
+    border: 1px solid #084566;
+    display: flex;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 25px;
+    margin: 0rem 1rem;
+    justify-content: center;
+    align-items: center;
+  }
+  &__finish {
+    background: #084566;
+    border: 1px solid#084566;
+    width: 8rem;
+    height: 3rem;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+.button-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.finish {
+  color: white;
+  margin-right: 0.5rem;
+}

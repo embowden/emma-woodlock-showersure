@@ -1,0 +1,133 @@
+.home {
+  width: 100%;
+  padding: 10px;
+  background-color: #e5e5e5;
+  height: 747px;
+
+  &__container {
+    // border: 1px solid hotpink;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  &__header {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    padding-right: 15px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  &__return {
+    height: 10px;
+    width: 20px;
+    position: relative;
+    right: 100px;
+  }
+
+  &__money {
+    width: 100%;
+    background-color: white;
+    // border: 1px solid black;
+    height: 130px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 10px;
+  }
+
+  &__money-title {
+    // border: 1px solid lime;
+    padding: 3px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__money-container {
+    // border: 1px solid hotpink;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  &__money-month {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // border: 1px solid orange;
+    padding: 5px 0;
+    width: 100%;
+  }
+
+  &__money-shower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    // border: 1px solid blue;
+    border-left: 1px solid black;
+    width: 100%;
+  }
+
+  &__subheader {
+    font-weight: 700;
+    font-size: 18px;
+  }
+
+  &__water {
+    @extend .home__money;
+  }
+
+  &__time {
+    @extend .home__money;
+  }
+
+  &__stats {
+    font-size: 22px;
+  }
+
+  &__label {
+    font-size: 16px;
+  }
+
+  &__options {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px 20px;
+    margin-top: 105px;
+    background-color: #084566;
+    color: white;
+    height: 40px;
+    border-radius: 25px;
+  }
+
+  &__icon {
+    height: 15px;
+    width: 15px;
+    margin-right: 5px;
+  }
+
+  &__arrow {
+    height: 15px;
+    width: 15px;
+    margin-left: 15px;
+  }
+
+  &__see {
+    font-weight: 700;
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+}

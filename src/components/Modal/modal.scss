@@ -1,0 +1,32 @@
+.modal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #00324e;
+  height: 812px;
+
+  &__image {
+    height: 100px;
+    width: 100px;
+    // margin-bottom: 10px;
+  }
+
+  &__logo-one {
+    position: relative;
+    right: 20px;
+    color: #a3e0fb;
+    font-family: oleo script;
+    font-size: 72px;
+  }
+
+  &__logo-two {
+    position: relative;
+    top: -60px;
+    left: 70px;
+    z-index: 999;
+    color: #4696e6;
+    font-family: oleo script;
+    font-size: 72px;
+  }
+}
